@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{email.subject}}</title>
+    <style>
+        .email-2024-template {
+            position: relative;
+            background-color: #fff;
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .email-2024-template .email-2024-template-header {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            -o-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            min-width: 200px;
+            text-align: center;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        .email-2024-template .email-2024-template-header a {
+            padding: 5px;
+            text-decoration: none;
+        }
+        .email-2024-template .email-2024-template-header a img {
+            width: 20px;
+        }
+        .email-2024-template .email-2024-template-body {
+            padding: 10px 20px;
+        }
+        .email-2024-template .email-2024-template-body h2 {
+            width: 80%;
+            margin: auto;
+            font-weight: lighter;
+            font-size: 2.3em;
+        }
+        .email-2024-template .email-2024-template-body .content {
+            padding: 50px 0;
+            line-height: 24px;
+            color: rgb(65, 65, 65);
+            font-size: 1.3em;
+        }
+        .email-2024-template .email-2024-template-footer ul {
+            list-style-type: none;
+        }
+        .email-2024-template .email-2024-template-footer ul li {
+            padding: 5px;
+            display: inline-block;
+        }
+        .email-2024-template .email-2024-template-footer ul li a {
+            padding: 5px;
+            color: #0d4928;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="email-2024-template">
+        <div class="email-2024-template-header">
+            <b>Visit us:</b><br/>
+            <a href="{{host.address}}"> <img src="{{host.address}}/assets/images/logo.png" alt="Logo" width="30"/> </a>
+            <a href="{{social.link.facebook}}"> <img src="{{host.address}}/assets/images/facebook-logo.png" alt="Facebook" width="30"/> </a>
+            <a href="{{social.link.instagram}}"> <img src="{{host.address}}/assets/images/instagram-logo.webp" alt="Instagram" width="30"/> </a>
+            <a href="{{social.link.twitter}}"> <img src="{{host.address}}/assets/images/x-logo.png" alt="X" width="30"/> </a>
+            <a href="{{social.link.youtube}}"> <img src="{{host.address}}/assets/images/youtube-logo.png" alt="Youtube" width="30"/> </a>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="email-2024-template-body">
+            <h1>{{host.name}}</h1>
+            <h2>{{email.subject}}</h2>
+
+            <div class="content">
+                <pre>{{email.message}}</pre>
+            </div>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <div class="email-2024-template-footer">
+            <ul>
+                <li> <a href="{{host.address}}/p/about">About us</a> </li>
+                <li> <a href="{{host.address}}/p/contact">Contact us</a> </li>
+                <li> <a href="{{host.address}}/p/privacy-policy">Privacy Policy</a> </li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>

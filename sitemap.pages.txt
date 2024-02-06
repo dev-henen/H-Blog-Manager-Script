@@ -1,0 +1,4 @@
+http://localhost:3000/p/test-page
+http://localhost:3000/p/privacy-policy
+http://localhost:3000/p/contact
+http://localhost:3000/p/about

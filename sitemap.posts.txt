@@ -1,0 +1,6 @@
+http://localhost:3000/read/the-art-of-pho-vietnams-soulful-noodle-elixir
+http://localhost:3000/read/the-enigmatic-elegance-of-truffles-earths-hidden-culinary-gems
+http://localhost:3000/read/olive-oil-liquid-gold-of-the-mediterranean-diet
+http://localhost:3000/read/the-wholesome-charm-of-avocado-natures-green-gold
+http://localhost:3000/read/the-allure-of-chocolate-a-divine-journey-through-the-worlds-favorite-indulgence
+http://localhost:3000/read/the-enchanting-world-of-sushi-a-culinary-symphony-of-flavors
