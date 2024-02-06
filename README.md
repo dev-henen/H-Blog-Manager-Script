@@ -1,4 +1,3 @@
-```markdown
 # H-Blog-Manager-Script
 
 H-Blog-Manager-Script is a robust blog management script that caters to developers and administrators. It provides a flexible environment for customizations, efficient content management, and seamless integration of templates.
