@@ -85,7 +85,7 @@ For assistance and support, contact Moses Henen:
 
 ### Additional Resources:
 
-- Explore additional templates on [HenenTheProgrammer Templates](https://github.com/HenenTheProgrammer).
+- Explore additional templates on [HenenTheProgrammer Templates](https://github.com/HenenTheProgrammer/H-Blog-Manager-Script/wiki/Custom-Templates).
 - Learn template parsing at [Template Parsing Guidelines](https://github.com/HenenTheProgrammer/php_template_loader).
 
 Feel free to explore and enhance the capabilities of H-Blog-Manager-Script!
