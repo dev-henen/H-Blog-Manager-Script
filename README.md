@@ -28,7 +28,7 @@ H-Blog-Manager-Script is a robust blog management script that caters to develope
 
 ### System Requirements:
 
-- PHP 7 and above.
+- PHP 8 and above.
 - MySQL Database (compatible version required).
 - Rename the file: "RENAME_THIS_FILE.htaccess" to ".htaccess" or use the ziped file
 
